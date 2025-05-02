@@ -34,7 +34,7 @@ router.post('/create-checkout-session', async (req, res) => {
           shipping_rate_data: {
             type: 'fixed_amount',
             fixed_amount: {
-              amount: 1600, // $16.00 in cents
+              amount: 999, // $9.99 in cents
               currency: 'usd',
             },
             display_name: 'Standard Shipping',
